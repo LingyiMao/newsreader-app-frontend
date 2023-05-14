@@ -1,8 +1,9 @@
 <template>
   <header>
+    <img src="./image/jon-tyson-XmMsdtiGSfo-unsplash.jpg" alt="">
     <nav>
-      <RouterLink to="/">Articles</RouterLink><p>/</p>
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/">Search the News</RouterLink><p>/</p>
+      <RouterLink class="about-title"  to="/about">About</RouterLink>
     </nav>
   </header>
 
@@ -32,4 +33,22 @@ p {
     padding: 0 1em;
 }
 
+.about-title {
+font-size: 14px;
+}
+
+nav {
+  padding-top: 2rem;
+ justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  box-shadow: 5px 5px 10px 5px gray;
+}
 </style>

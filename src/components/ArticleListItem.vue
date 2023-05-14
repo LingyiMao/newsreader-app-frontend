@@ -22,6 +22,7 @@ export default {
   height: 500px;
   padding: 1.8em;
   border-bottom: 1px solid gray;
+  box-shadow: 5px 0 15px -15px gray;
 }
 
 img {

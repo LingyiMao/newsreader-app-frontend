@@ -125,34 +125,38 @@ export default {
 .headlines {
   padding: 0 0 2rem 0;
   font-family: "Inter", sans-serif;
-  width: 550px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 select {
   background-color: #faf5ed;
   border: 1px solid;
+  border-radius: 5px;
 }
 
 .input-search {
   padding: 0 0 2rem 0;
   font-family: "Inter", sans-serif;
-  width: 400px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 label {
+  padding: 0 1rem;
   color: grey;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 input {
   background-color: #faf5ed;
   border: 1px solid;
+  border-radius: 5px;
 }
 
 button {
+  margin: 0 1rem;
+  border-radius: 5px;
   font-family: "Inter", sans-serif;
   background-color: #faf5ed;
   border: 1px solid;

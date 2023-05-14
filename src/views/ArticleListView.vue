@@ -1,7 +1,6 @@
 <template>
   <main>
     <ArtcileFilter @keyword-search="filterSearch" />
-    <h2>Article List</h2>
     <div class="article-list">
       <ArticleListItem
         v-for="article of articles"
@@ -76,16 +75,12 @@ export default {
 
 <style scoped>
 main {
-  padding: 0 2rem;
+  padding: 2rem;
 }
 
-h2 {
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  text-decoration: underline;
-}
 .article-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 </style>
